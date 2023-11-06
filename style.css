@@ -1,0 +1,17 @@
+*{
+    .ocr{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        background-color: plum;
+    }
+    .ocr *{
+        margin-top: 5px;
+    }
+    .text{
+        width: 100%;
+        height: 350px;
+    }
+}
